@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6b6bbc1-2d97-0206-16d1-5845aabffac4" name="Sitsters of Sigmar" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c6b6bbc1-2d97-0206-16d1-5845aabffac4" name="Sitsters of Sigmar" revision="100" battleScribeVersion="2.03" authorName="LaunaGamers" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="83ab8692-01da-65c5-af52-a55d4800f012" name="Augur" page="0" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -181,7 +181,7 @@ In addition, an Augur can use her Blessed Sight to help the Sisterhood when they
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="074d9cc5-ab18-5302-91eb-29f4f9d61bcc" name="Novices" page="0" hidden="false" collective="false" import="true" type="model">
@@ -281,8 +281,8 @@ In addition, an Augur can use her Blessed Sight to help the Sisterhood when they
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
             <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">2</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
-            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">4</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
             <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
@@ -549,14 +549,14 @@ In addition, an Augur can use her Blessed Sight to help the Sisterhood when they
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
+        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="minSelections" value="20.0"/>
+            <modifier type="set" field="minSelections" value="11.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93700e68-f80c-ad1c-b5cd-06fd3c7e7537" name="Sister Superior" page="0" hidden="false" collective="false" import="true" type="model">
@@ -725,12 +725,12 @@ In addition, an Augur can use her Blessed Sight to help the Sisterhood when they
       <entryLinks>
         <entryLink id="42132d31-b7fe-788f-ab94-390f6e406693" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="minSelections" value="8.0"/>
+            <modifier type="set" field="minSelections" value="4.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16763088-15c1-4f72-fdfe-153003be4a24" name="Sisters" page="0" hidden="false" collective="false" import="true" type="model">
@@ -825,14 +825,14 @@ In addition, an Augur can use her Blessed Sight to help the Sisterhood when they
           </modifiers>
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">3</characteristic>
-            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">2</characteristic>
+            <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">2</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
             <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
             <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">7</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1271,7 +1271,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dca0ad0f-ab8a-6fe8-18cc-6b207a23e8c5" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1284,7 +1284,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="57d232c8-f782-bb72-4d7c-222332e93e51" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2117,6 +2117,13 @@ a critical hit. Only Matriarchs and Sister Superiors may carry two Sigmarite  wa
                 <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Can not be Parried, Whip Crack</characteristic>
               </characteristics>
             </profile>
+            <profile id="6f49-2d0d-d2c5-b62f" name="Steel Whip (Sisters Only)" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">4</characteristic>
+                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">U</characteristic>
+                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Whip the Infidel, Whip Handler</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <rules>
             <rule id="4f327ee6-7114-dc5d-c46f-c6b3d4b439a6" name="Whip Crack" page="0" hidden="false">
@@ -2126,7 +2133,7 @@ using two whips at the same time then they get +1A for the additional hand weapo
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
