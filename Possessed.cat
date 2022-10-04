@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="39bde8be-ab13-2d3c-098b-1d52b4cbbf63" name="Cult of the Possessed" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="39bde8be-ab13-2d3c-098b-1d52b4cbbf63" name="Cult of the Possessed" revision="100" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="074d9cc5-ab18-5302-91eb-29f4f9d61bcc" name="Beastmen Gors" page="0" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -95,15 +95,15 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">4</characteristic>
+            <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">5</characteristic>
             <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
             <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">3</characteristic>
-            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
+            <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
             <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">4</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">2</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">3</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">7</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -530,10 +530,10 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="68dfc5ad-72e4-3e81-2e9e-f6abd37596a9" hidden="false" collective="false" import="true" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry"/>
-        <entryLink id="2c761416-6f59-1a4f-2742-25e90f596c03" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry"/>
+        <entryLink id="2c761416-6f59-1a4f-2742-25e90f596c03" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2545273a-9e52-6505-81ac-370c35344928" name="Magester" page="0" hidden="false" collective="false" import="true" type="model">
@@ -703,9 +703,9 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
+        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="minSelections" value="20.0"/>
+            <modifier type="set" field="minSelections" value="11.0"/>
           </modifiers>
         </entryLink>
         <entryLink id="774e34d7-1dc7-e857-e903-e863026a7156" hidden="false" collective="false" import="true" targetId="e79d1530-e0da-1681-1b2a-f57bc2c48d13" type="selectionEntryGroup"/>
@@ -886,7 +886,7 @@
         <entryLink id="03bc18eb-b2f9-0970-4923-373b705031de" hidden="false" collective="false" import="true" targetId="e111af6a-dde1-6dcc-d658-bf4f2f4751c0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83ab8692-01da-65c5-af52-a55d4800f012" name="Possessed" page="0" hidden="false" collective="false" import="true" type="model">
@@ -997,7 +997,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="c6a4d5fa-343c-3dba-da8e-93c2e602551f" hidden="false" targetId="75a2f07b-eab8-01aa-de76-d15f38bfb34e" type="rule"/>
-        <infoLink id="df0e419c-d3d1-bd88-6423-ebeaa2a01dc8" hidden="false" targetId="4390265d-0892-5427-fe46-78054de59a7e" type="rule"/>
+        <infoLink id="df0e419c-d3d1-bd88-6423-ebeaa2a01dc8" name="Fear" hidden="false" targetId="4390265d-0892-5427-fe46-78054de59a7e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="83ab8692-01da-65c5-af52-a55d4800f012-a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
@@ -1049,7 +1049,7 @@
       <entryLinks>
         <entryLink id="a7d4eb84-400b-29e8-339c-fceebcba1553" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="minSelections" value="8.0"/>
+            <modifier type="set" field="minSelections" value="14.0"/>
           </modifiers>
         </entryLink>
         <entryLink id="80518ca1-2f6b-5e42-d9f5-26006149540d" hidden="false" collective="false" import="true" targetId="e111af6a-dde1-6dcc-d658-bf4f2f4751c0" type="selectionEntryGroup"/>
@@ -1427,7 +1427,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dca0ad0f-ab8a-6fe8-18cc-6b207a23e8c5" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1440,7 +1440,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="57d232c8-f782-bb72-4d7c-222332e93e51" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">

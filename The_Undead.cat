@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b05773f-a863-7a25-f872-588b804e2c75" name="The Undead" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b05773f-a863-7a25-f872-588b804e2c75" name="The Undead" revision="100" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="888b0a33-7922-685c-49fc-591b3fb26358" name="Awakened Zombie" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -235,7 +235,7 @@
         <categoryLink id="074d9cc5-ab18-5302-91eb-29f4f9d61bcc-f9b08d8e-4922-78d5-78ad-2047bff52dc8" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93700e68-f80c-ad1c-b5cd-06fd3c7e7537" name="Dregs" page="0" hidden="false" collective="false" import="true" type="model">
@@ -390,9 +390,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b72d2347-64d2-8e68-c463-0e82a6723ff5" hidden="false" collective="false" import="true" targetId="bd8689c9-bc5c-df7b-87b9-aad34e27a295" type="selectionEntryGroup"/>
+            <entryLink id="b72d2347-64d2-8e68-c463-0e82a6723ff5" name="Combat Skills" hidden="false" collective="false" import="true" targetId="bd8689c9-bc5c-df7b-87b9-aad34e27a295" type="selectionEntryGroup"/>
             <entryLink id="6943bf03-8cfb-db4c-bd0a-f04356ec15ec" hidden="false" collective="false" import="true" targetId="9e76820a-3a93-f94a-a7c7-d31889583e06" type="selectionEntryGroup"/>
             <entryLink id="bb755636-0b5c-95f0-6f44-ccb4319cb7f2" hidden="false" collective="false" import="true" targetId="2a62fe9a-16ae-b087-f5a5-47f19da37c89" type="selectionEntryGroup"/>
+            <entryLink id="346f-bc26-9c50-2f88" name="Shooting Skills" hidden="false" collective="false" import="true" targetId="52007ee0-cc99-b312-3650-cfab391e476c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -400,14 +401,14 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="42132d31-b7fe-788f-ab94-390f6e406693" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
+        <entryLink id="42132d31-b7fe-788f-ab94-390f6e406693" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="minSelections" value="0.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="889151de-4826-5f00-5dbb-fcf546ebedbb" name="Ghouls" page="0" hidden="false" collective="false" import="true" type="model">
@@ -559,8 +560,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="68dfc5ad-72e4-3e81-2e9e-f6abd37596a9" hidden="false" collective="false" import="true" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry"/>
-        <entryLink id="2c761416-6f59-1a4f-2742-25e90f596c03" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry"/>
+        <entryLink id="68dfc5ad-72e4-3e81-2e9e-f6abd37596a9" name="Promoted" hidden="false" collective="false" import="true" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry"/>
+        <entryLink id="2c761416-6f59-1a4f-2742-25e90f596c03" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
@@ -722,9 +723,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="17612618-33cb-0ad5-6325-cdb50c7f936f" hidden="false" collective="false" import="true" targetId="9e76820a-3a93-f94a-a7c7-d31889583e06" type="selectionEntryGroup"/>
-            <entryLink id="b730009d-1a25-5605-9c34-f59b2da1cb69" hidden="false" collective="false" import="true" targetId="bd8689c9-bc5c-df7b-87b9-aad34e27a295" type="selectionEntryGroup"/>
-            <entryLink id="9a2384e1-c454-d434-2f2c-8a881c7ebacb" hidden="false" collective="false" import="true" targetId="2a62fe9a-16ae-b087-f5a5-47f19da37c89" type="selectionEntryGroup"/>
+            <entryLink id="17612618-33cb-0ad5-6325-cdb50c7f936f" name="Strength Skills" hidden="false" collective="false" import="true" targetId="9e76820a-3a93-f94a-a7c7-d31889583e06" type="selectionEntryGroup"/>
+            <entryLink id="b730009d-1a25-5605-9c34-f59b2da1cb69" name="Combat Skills" hidden="false" collective="false" import="true" targetId="bd8689c9-bc5c-df7b-87b9-aad34e27a295" type="selectionEntryGroup"/>
+            <entryLink id="9a2384e1-c454-d434-2f2c-8a881c7ebacb" name="Speed Skills" hidden="false" collective="false" import="true" targetId="2a62fe9a-16ae-b087-f5a5-47f19da37c89" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -744,14 +745,14 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a7d4eb84-400b-29e8-339c-fceebcba1553" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
+        <entryLink id="a7d4eb84-400b-29e8-339c-fceebcba1553" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="minSelections" value="8.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83ade99f-e9ef-d25a-59ac-ca3f3def011c" name="Stash" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -962,7 +963,7 @@
             <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">4</characteristic>
             <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">4</characteristic>
             <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">4</characteristic>
-            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">2</characteristic>
+            <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">5</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">2</characteristic>
             <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">8</characteristic>
@@ -1034,14 +1035,14 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
+        <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" name="Experience" hidden="false" collective="false" import="true" targetId="f0fc009a-7990-32ef-b84b-b631058620e2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="minSelections" value="20.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="110.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16763088-15c1-4f72-fdfe-153003be4a24" name="Zombies" page="0" hidden="false" collective="false" import="true" type="model">
@@ -1420,7 +1421,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dca0ad0f-ab8a-6fe8-18cc-6b207a23e8c5" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1433,7 +1434,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="57d232c8-f782-bb72-4d7c-222332e93e51" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">
